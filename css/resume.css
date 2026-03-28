@@ -754,13 +754,13 @@ p {
 
 .about-video {
     width: 100%;
-    max-width: 800px;       /* bigger square */
-    height: auto;
+    max-width: 640px;
+    height: 640px;
     display: block;
-    margin: 0 auto 2rem auto; /* top margin 0 to move it up */
+    margin: 0 auto 2rem auto;
     position: relative;
-    top: -60px;             /* moves it higher */
-    border-radius: 12px;    /* keeps corners rounded */
+    top: -60px;
+    border-radius: 12px;
 }
 
 /* === PACKAGES === */
