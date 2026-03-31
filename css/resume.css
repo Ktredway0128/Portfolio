@@ -516,6 +516,11 @@ p {
     display: inline-block; 
 }
 
+.card.small .card-button--site {
+    font-size: 12px;
+    padding: 6px 8px;
+}
+
 .projects .card, .skills .skill-card {
     background: rgba(255, 255, 255, 0.1); /* translucent */
     backdrop-filter: blur(10px); /* glass blur */
@@ -938,7 +943,7 @@ p {
 .card.small {
     width: 280px;
     max-width: 280px;
-    height: 420px;
+    height: auto;
     padding: 20px;
 }
 
@@ -957,6 +962,12 @@ p {
 .card.small .card-description {
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+.card-video {
+    margin-top: 16px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 /* for locking the screen fixed so nothing moves around */
