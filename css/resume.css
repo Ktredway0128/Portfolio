@@ -289,7 +289,7 @@ p {
     font-weight: 400;
     font-size: var(--font-40);
     line-height: 150%;
-    margin-bottom: 180px;
+    margin-bottom: 60px;
     margin-left: auto;   /* center horizontally */
     margin-right: auto;
 }
@@ -989,5 +989,222 @@ p {
     max-width: 1440px;
     margin: 0 auto;
     overflow-x: hidden;
+}
+
+/* === ADD-ONS === */
+
+.addons-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.addons-title {
+    color: #e6dbc7;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.addons-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.addons-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(230, 219, 199, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    width: 320px; max-width: 340px;
+    text-align: left;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.addons-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.addons-card-title {
+    color: #e6dbc7;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.addons-card-subtitle {
+    color: rgba(230, 219, 199, 0.6);
+    font-size: 13px;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.addon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(230, 219, 199, 0.1);
+    color: #e6dbc7;
+    font-size: 15px;
+}
+
+.addon-row:last-child {
+    border-bottom: none;
+}
+
+.addon-row--total {
+    margin-top: 8px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(230, 219, 199, 0.3);
+    border-bottom: none;
+    font-weight: 500;
+}
+
+.addon-price {
+    color: #e6dbc7;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.addons-card-note {
+    color: rgba(230, 219, 199, 0.5);
+    font-size: 12px;
+    margin-top: 20px;
+    opacity: 1;
+    line-height: 1.6;
+}
+
+/* === COMPLETE SUITE === */
+
+.suite-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.suite-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid #e6dbc7;
+    border-radius: 16px;
+    padding: 48px;
+    width: 720px;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+}
+
+.suite-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 50px rgba(230, 219, 199, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.suite-badge {
+    background: #e6dbc7;
+    color: #4B2E2A;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 14px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.suite-title {
+    color: #e6dbc7;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.suite-price {
+    color: #e6dbc7;
+    font-size: 52px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.suite-price span {
+    font-size: 22px;
+    opacity: 0.7;
+}
+
+.suite-savings {
+    color: rgba(230, 219, 199, 0.7);
+    font-size: 14px;
+    margin-bottom: 32px;
+    opacity: 1;
+}
+
+.suite-features {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 32px 0;
+    text-align: left;
+}
+
+.suite-col {
+    flex: 1;
+    max-width: 260px;
+}
+
+.suite-col-title {
+    color: #e6dbc7;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+    opacity: 0.6;
+}
+
+.suite-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.suite-links .package-btn {
+    width: 200px;
+}
+
+
+.video-carousel-card {
+    max-width: 700px;
+    margin: 0 auto 24px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.video-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.video-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.video-item {
+    min-width: 100%;
+    scroll-snap-align: start;
+    padding: 20px;
+}
+
+.video-label {
+    text-align: center;
+    color: #e6dbc7;
+    font-size: 14px;
+    margin-top: 12px;
+    opacity: 0.8;
 }
 

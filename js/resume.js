@@ -46,3 +46,27 @@ setInterval(() => {
         rotatingTitle.style.opacity = '1';
     }, 500);
 }, 3000);
+
+
+// Video carousel dots
+const videoScroll = document.getElementById('videoScroll');
+const videoDots = document.querySelectorAll('#videoDots .dot');
+
+videoDots.forEach((dot, index) => {
+    dot.style.cursor = 'pointer';
+    dot.addEventListener('click', () => {
+        const itemWidth = videoScroll.querySelector('.video-item').offsetWidth;
+        videoScroll.scrollTo({
+            left: itemWidth * index,
+            behavior: 'smooth'
+        });
+    });
+});
+
+videoScroll.addEventListener('scroll', () => {
+    const itemWidth = videoScroll.querySelector('.video-item').offsetWidth;
+    const activeIndex = Math.round(videoScroll.scrollLeft / itemWidth);
+    videoDots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === activeIndex);
+    });
+});
