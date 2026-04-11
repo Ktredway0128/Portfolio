@@ -25,7 +25,7 @@
 
 <body>   
     <header class="header">
-        <img src="./img/td-logo.png" alt="Tredway Development" style="height: 200px; margin-bottom: 20px;">
+        <img src="./img/td-logo.png" alt="Tredway Development" style="height: 300px; margin-bottom: 20px;">
         <div class="header-links flex-start">
             <div class="profile-container">
                 <img class="profile" src="./img/profile.jpg" alt="Kyle Tredway">
@@ -103,10 +103,11 @@
         
             <h2>
                 I'm a blockchain developer specializing in token launches and smart contract development on Ethereum. 
-                I build production-ready ERC-20 tokens, vesting systems, and Merkle airdrop contracts, as well as 
-                full-stack decentralized applications, all deployed and verified on-chain. I have hands on experience 
-                building, deploying and interacting with decentralized systems using Solidity and modern JavaScript 
-                frameworks, with a strong focus on secure, auditable contract architecture and clean Web3 frontends.
+                I build production-ready ERC-20 tokens, vesting systems, Merkle airdrop contracts, staking rewards systems, 
+                and token crowdsales, as well as full-stack decentralized applications, all deployed and verified on-chain. 
+                I have hands on experience building, deploying and interacting with decentralized systems using Solidity 
+                and modern JavaScript frameworks, with a strong focus on secure, auditable contract architecture and clean 
+                Web3 frontends.
             </h2>
         </section>
 
@@ -121,13 +122,15 @@
             </div>
         
             <div class="cards-row">
+
+                <!-- TOKEN LAUNCH -->
                 <div class="card small">
                     <img src="./img/projects/Screenshot token.png" alt="ERC-20 Token Launch">
-                    <h3 class="card-title">ERC-20 Token Launch</h3>
+                    <h3 class="card-title">Token Launch</h3>
                     <p class="card-description">Production-ready ERC-20 token with minting, burning, pausing and role-based permissions</p>
                     <div class="card-buttons">
-                        <a href="https://erc20-token-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
-                        <a href="https://github.com/Ktredway0128/erc20-token-launch" target="_blank" class="card-button--site">GitHub</a>
+                        <a href="https://token-launch-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
+                        <a href="https://github.com/Ktredway0128/token-launch" target="_blank" class="card-button--site">GitHub</a>
                         <a href="https://sepolia.etherscan.io/address/0x036150039c33b1645080a9c913f96D4c65ccca48#code" target="_blank" class="card-button--site">Etherscan</a>
                     </div>
                     <div class="card-video">
@@ -151,13 +154,14 @@
                     </div>
                 </div>
             
+                <!-- TOKEN VESTING -->
                 <div class="card small">
                     <img src="./img/projects/Screenshot token-vesting.png" alt="ERC-20 Token Vesting">
-                    <h3 class="card-title">ERC-20 Token Vesting</h3>
+                    <h3 class="card-title">Token Vesting</h3>
                     <p class="card-description">Token vesting contract with cliff periods, linear release and admin revocation</p>
                     <div class="card-buttons">
-                        <a href="https://erc20-vesting-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
-                        <a href="https://github.com/Ktredway0128/erc20-token-vesting" target="_blank" class="card-button--site">GitHub</a>
+                        <a href="https://token-vesting-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
+                        <a href="https://github.com/Ktredway0128/token-vesting" target="_blank" class="card-button--site">GitHub</a>
                         <a href="https://sepolia.etherscan.io/address/0x81F71D5D73383750C9d4BCe65C493A55BA887ecB#code" target="_blank" class="card-button--site">Etherscan</a>
                     </div>
                     <div class="card-video">
@@ -178,17 +182,17 @@
                             opacity: 0.8;
                             text-decoration: underline;
                         ">▶ Watch full demo on YouTube</a>
-                        </iframe>
                     </div>
                 </div>
             
+                <!-- TOKEN AIRDROP -->
                 <div class="card small">
-                    <img src="./img/projects/Screenshot token-vesting-airdrop.png" alt="ERC-20 Vesting & Airdrop">
-                    <h3 class="card-title">ERC-20 Token Vesting & Airdrop</h3>
-                    <p class="card-description">Full token distribution system with vesting schedules and Merkle tree airdrop contract</p>
+                    <img src="./img/projects/Screenshot token-vesting-airdrop.png" alt="ERC-20 Token Airdrop">
+                    <h3 class="card-title">Token Airdrop</h3>
+                    <p class="card-description">Full token distribution system with Merkle tree whitelist and airdrop contract</p>
                     <div class="card-buttons">
-                        <a href="https://erc20-airdrop-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
-                        <a href="https://github.com/Ktredway0128/erc20-token-vesting-airdrop" target="_blank" class="card-button--site">GitHub</a>
+                        <a href="https://token-airdrop-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
+                        <a href="https://github.com/Ktredway0128/token-airdrop" target="_blank" class="card-button--site">GitHub</a>
                         <a href="https://sepolia.etherscan.io/address/0x1e79DE344A8B99CAF74E60dc1bD7cCE26e9f5524#code" target="_blank" class="card-button--site">Etherscan</a>
                     </div>
                     <div class="card-video">
@@ -209,16 +213,17 @@
                             opacity: 0.8;
                             text-decoration: underline;
                         ">▶ Watch full demo on YouTube</a>
-                        </iframe>
                     </div>
                 </div>
+
+                <!-- TOKEN STAKING -->
                 <div class="card small">
                     <img src="./img/projects/Screenshot token-staking.png" alt="ERC-20 Token Staking">
-                    <h3 class="card-title">ERC-20 Token Staking</h3>
+                    <h3 class="card-title">Token Staking</h3>
                     <p class="card-description">Staking rewards contract with fixed duration periods, real-time APY, and proportional reward distribution</p>
                     <div class="card-buttons">
-                        <a href="https://erc20-staking-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
-                        <a href="https://github.com/Ktredway0128/erc20-token-staking" target="_blank" class="card-button--site">GitHub</a>
+                        <a href="https://token-staking-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
+                        <a href="https://github.com/Ktredway0128/token-staking" target="_blank" class="card-button--site">GitHub</a>
                         <a href="https://sepolia.etherscan.io/address/0x0823D964ECC9ed0975761F0D08Ac34F21B936D04#code" target="_blank" class="card-button--site">Etherscan</a>
                     </div>
                     <div class="card-video">
@@ -241,6 +246,28 @@
                         ">▶ Watch full demo on YouTube</a>
                     </div>
                 </div>
+
+                <!-- TOKEN CROWDSALE -->
+                <div class="card small">
+                    <img src="./img/projects/Screenshot token-staking.png" alt="ERC-20 Token Crowdsale">
+                    <h3 class="card-title">Token Crowdsale</h3>
+                    <p class="card-description">ETH-based token sale with Merkle whitelist, soft/hard caps, purchaser vesting, and refund protection</p>
+                    <div class="card-buttons">
+                        <a href="https://token-crowdsale-dashboard.netlify.app/" target="_blank" class="card-button--site">Dashboard</a>
+                        <a href="https://github.com/Ktredway0128/token-crowdsale" target="_blank" class="card-button--site">GitHub</a>
+                        <a href="https://sepolia.etherscan.io/address/0xb19f657E2CB2ea593a348285230D3827c85Ae3c5#code" target="_blank" class="card-button--site">Etherscan</a>
+                    </div>
+                </div>
+
+                <!-- TOKEN GOVERNANCE - COMING SOON -->
+                <div class="card small">
+                    <h3 class="card-title">🔒 Token Governance / DAO</h3>
+                    <p class="card-description">On-chain governance with proposal creation, token-weighted voting, timelock execution, and delegate voting — Coming Soon</p>
+                    <div class="card-buttons">
+                        <a href="mailto:kyletredway@gmail.com" class="card-button--site">Get Notified</a>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -252,6 +279,7 @@
 
             <div class="packages-cards">
 
+                <!-- LAUNCH -->
                 <div class="package-card">
                     <span class="package-name">Launch</span>
                     <div class="package-price">$1,200<span> USD</span></div>
@@ -267,58 +295,82 @@
                     </ul>
                     <div class="package-links">
                         <a href="mailto:kyletredway@gmail.com" class="package-btn package-btn-primary">Get Started</a>
-                        <a href="https://github.com/Ktredway0128/erc20-token-launch" target="_blank" class="package-btn package-btn-secondary">GitHub</a>
+                        <a href="https://github.com/Ktredway0128/token-launch" target="_blank" class="package-btn package-btn-secondary">GitHub</a>
                     </div>
                 </div>
 
-                <div class="package-card featured">
-                    <span class="package-badge">Most Popular</span>
-                    <span class="package-name">Scale</span>
-                    <div class="package-price">$2,500<span> USD</span></div>
+                <!-- RAISE -->
+                <div class="package-card">
+                    <span class="package-name">Raise</span>
+                    <div class="package-price">$3,500<span> USD</span></div>
                     <hr class="package-divider">
                     <ul class="package-features">
                         <li><span class="pkg-check"></span>Everything in Launch</li>
-                        <li><span class="pkg-check"></span>Token Vesting Contract</li>
-                        <li><span class="pkg-check"></span>Cliff + linear vesting schedules</li>
-                        <li><span class="pkg-check"></span>Multiple schedules per wallet</li>
-                        <li><span class="pkg-check"></span>Admin revocation support</li>
-                        <li><span class="pkg-check"></span>Sepolia testnet + mainnet deployment</li>
+                        <li><span class="pkg-check"></span>Token Crowdsale Contract</li>
+                        <li><span class="pkg-check"></span>ETH-based token purchases</li>
+                        <li><span class="pkg-check"></span>Merkle whitelist for buyer eligibility</li>
+                        <li><span class="pkg-check"></span>Soft cap & hard cap enforcement</li>
+                        <li><span class="pkg-check"></span>Purchaser vesting with cliff period</li>
+                        <li><span class="pkg-check"></span>Refund protection on failed raises</li>
                         <li><span class="pkg-check"></span>Etherscan verified</li>
                     </ul>
                     <div class="package-links">
                         <a href="mailto:kyletredway@gmail.com" class="package-btn package-btn-primary">Get Started</a>
-                        <a href="https://github.com/Ktredway0128/erc20-token-vesting" target="_blank" class="package-btn package-btn-secondary">GitHub</a>
+                        <a href="https://github.com/Ktredway0128/token-crowdsale" target="_blank" class="package-btn package-btn-secondary">GitHub</a>
                     </div>
                 </div>
 
-                <div class="package-card">
-                    <span class="package-name">Dominate</span>
-                    <div class="package-price">$6,000<span> USD</span></div>
+                <!-- DISTRIBUTE -->
+                <div class="package-card featured">
+                    <span class="package-badge">Most Popular</span>
+                    <span class="package-name">Distribute</span>
+                    <div class="package-price">$6,500<span> USD</span></div>
                     <hr class="package-divider">
                     <ul class="package-features">
-                        <li><span class="pkg-check"></span>Everything in Scale</li>
+                        <li><span class="pkg-check"></span>Everything in Raise</li>
+                        <li><span class="pkg-check"></span>Token Vesting Contract</li>
+                        <li><span class="pkg-check"></span>Cliff + linear vesting schedules</li>
+                        <li><span class="pkg-check"></span>Multiple schedules per wallet</li>
                         <li><span class="pkg-check"></span>Merkle Airdrop Contract</li>
                         <li><span class="pkg-check"></span>Whitelist + proof generation</li>
                         <li><span class="pkg-check"></span>Double-claim protection</li>
-                        <li><span class="pkg-check"></span>Claim deadline & token recovery</li>
-                        <li><span class="pkg-check"></span>Sepolia testnet + mainnet deployment</li>
                         <li><span class="pkg-check"></span>Etherscan verified</li>
                     </ul>
                     <div class="package-links">
                         <a href="mailto:kyletredway@gmail.com" class="package-btn package-btn-primary">Get Started</a>
-                        <a href="https://github.com/Ktredway0128/erc20-token-vesting-airdrop" target="_blank" class="package-btn package-btn-secondary">GitHub</a>
+                        <a href="https://github.com/Ktredway0128/token-airdrop" target="_blank" class="package-btn package-btn-secondary">GitHub</a>
                     </div>
                 </div>
+
+                <!-- PROTOCOL -->
+                <div class="package-card">
+                    <span class="package-name">Protocol</span>
+                    <div class="package-price">$11,000<span> USD</span></div>
+                    <hr class="package-divider">
+                    <ul class="package-features">
+                        <li><span class="pkg-check"></span>Everything in Distribute</li>
+                        <li><span class="pkg-check"></span>Token Staking Contract</li>
+                        <li><span class="pkg-check"></span>Fixed reward periods & real-time APY</li>
+                        <li><span class="pkg-check"></span>Proportional reward distribution</li>
+                        <li><span class="pkg-check"></span>Token Governance / DAO Contract</li>
+                        <li><span class="pkg-check"></span>Proposal creation & token-weighted voting</li>
+                        <li><span class="pkg-check"></span>Timelock execution</li>
+                        <li><span class="pkg-check"></span>Etherscan verified</li>
+                    </ul>
+                    <div class="package-links">
+                        <a href="mailto:kyletredway@gmail.com" class="package-btn package-btn-primary">Get Started</a>
+                        <a href="https://github.com/Ktredway0128/token-staking" target="_blank" class="package-btn package-btn-secondary">GitHub</a>
+                    </div>
+                </div>
+
             </div>
+
             <!-- ADD-ONS TABLE -->
             <div class="addons-section">
-                <h3 class="addons-title">Add-Ons & Upgrades</h3>
-                
+                <h3 class="addons-title">Add-Ons</h3>
                 <div class="addons-grid">
-                    
-                    <!-- Dashboard Add-Ons -->
                     <div class="addons-card">
-                        <h4 class="addons-card-title">Dashboard Add-Ons</h4>
+                        <h4 class="addons-card-title">Individual Dashboards</h4>
                         <div class="addon-row">
                             <span>Token Dashboard</span>
                             <span class="addon-price">$500</span>
@@ -328,36 +380,25 @@
                             <span class="addon-price">$700</span>
                         </div>
                         <div class="addon-row">
+                            <span>Airdrop Dashboard</span>
+                            <span class="addon-price">$1,000</span>
+                        </div>
+                        <div class="addon-row">
                             <span>Staking Dashboard</span>
                             <span class="addon-price">$800</span>
                         </div>
                         <div class="addon-row">
-                            <span>Airdrop Dashboard</span>
-                            <span class="addon-price">$1000</span>
+                            <span>Crowdsale Dashboard</span>
+                            <span class="addon-price">$1,000</span>
+                        </div>
+                        <div class="addon-row">
+                            <span>Governance Dashboard</span>
+                            <span class="addon-price">$1,000</span>
                         </div>
                         <div class="addon-row addon-row--total">
-                            <span>All 4 Dashboards</span>
-                            <span class="addon-price">$2,800 <em style="font-size:12px; opacity:0.6;">save $200</em></span>
+                            <span>All 6 Dashboards</span>
+                            <span class="addon-price">$4,500 <em style="font-size:12px; opacity:0.6;">save $500</em></span>
                         </div>
-                    </div>
-
-                    <!-- Contract Upgrades -->
-                    <div class="addons-card">
-                        <h4 class="addons-card-title">Contract Upgrades</h4>
-                        <p class="addons-card-subtitle">Swap vesting for a different contract in the Scale tier</p>
-                        <div class="addon-row">
-                            <span>Token + Vesting</span>
-                            <span class="addon-price">$2,500</span>
-                        </div>
-                        <div class="addon-row">
-                            <span>Token + Staking</span>
-                            <span class="addon-price">$3,500</span>
-                        </div>
-                        <div class="addon-row">
-                            <span>Token + Airdrop</span>
-                            <span class="addon-price">$4,500</span>
-                        </div>
-                        <p class="addons-card-note">All upgrades include everything in the Launch package — ERC-20 token contract, full test suite, and Etherscan verification.</p>
                     </div>
                 </div>    
             </div>
@@ -368,24 +409,28 @@
                     <div class="suite-header">
                         <span class="suite-badge">Best Value</span>
                         <h3 class="suite-title">Complete Suite</h3>
-                        <div class="suite-price">$10,000<span> USD</span></div>
-                        <p class="suite-savings">Save $1,300 — everything included</p>
+                        <div class="suite-price">$14,000<span> USD</span></div>
+                        <p class="suite-savings">Save $2,000 — everything included</p>
                     </div>
                     <hr class="package-divider">
                     <div class="suite-features">
                         <div class="suite-col">
                             <p class="suite-col-title">Contracts</p>
                             <div class="addon-row"><span>ERC-20 Token Contract</span><span class="pkg-check"></span></div>
+                            <div class="addon-row"><span>Crowdsale Contract</span><span class="pkg-check"></span></div>
                             <div class="addon-row"><span>Vesting Contract</span><span class="pkg-check"></span></div>
                             <div class="addon-row"><span>Merkle Airdrop Contract</span><span class="pkg-check"></span></div>
                             <div class="addon-row"><span>Staking Contract</span><span class="pkg-check"></span></div>
+                            <div class="addon-row"><span>Governance / DAO Contract</span><span class="pkg-check"></span></div>
                         </div>
                         <div class="suite-col">
                             <p class="suite-col-title">Dashboards</p>
                             <div class="addon-row"><span>Token Dashboard</span><span class="pkg-check"></span></div>
+                            <div class="addon-row"><span>Crowdsale Dashboard</span><span class="pkg-check"></span></div>
                             <div class="addon-row"><span>Vesting Dashboard</span><span class="pkg-check"></span></div>
                             <div class="addon-row"><span>Airdrop Dashboard</span><span class="pkg-check"></span></div>
                             <div class="addon-row"><span>Staking Dashboard</span><span class="pkg-check"></span></div>
+                            <div class="addon-row"><span>Governance Dashboard</span><span class="pkg-check"></span></div>
                         </div>
                     </div>
                     <hr class="package-divider">
@@ -393,7 +438,8 @@
                         <a href="mailto:kyletredway@gmail.com" class="package-btn package-btn-primary">Get Started</a>
                     </div>
                 </div>
-            </div>   
+            </div>
+
         </section>
 
         <!-- SKILLS -->
@@ -478,7 +524,7 @@
         <section class="section contact">
             <div class="contact-links flex-start">
                 <div class="profile-container">
-                    <img class="profile" src="./img/profile.jpg" alt="Joe Blow">
+                    <img class="profile" src="./img/profile.jpg" alt="Kyle Tredway">
                     <img class="ring" src="./img/Ring.svg" alt="Ring Border">
                 </div>
 
