@@ -1,6 +1,6 @@
 // Clickable scroll dots for articles
 const scrollContainer = document.querySelector('.articles-scroll');
-const dots = document.querySelectorAll('.scroll-dots .dot');
+const dots = document.querySelectorAll('#articleDots .dot');
 
 dots.forEach((dot, index) => {
     dot.style.cursor = 'pointer';
