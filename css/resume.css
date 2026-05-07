@@ -1281,3 +1281,38 @@ p {
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
+
+.cards-row-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.card.featured-row {
+    background: #4B2E2A;
+    border: 1px solid #4B2E2A;
+}
+
+.card.featured-row .card-title {
+    color: #e6dbc7;
+}
+
+.card.featured-row .card-description {
+    color: #e6dbc7;
+}
+
+.card.featured-row .card-button--site {
+    background: #e6dbc7 !important;
+    color: #4B2E2A !important;
+}
+
+.card.featured-row a[style] {
+    color: #e6dbc7 !important;
+}
+
+.cards-row-2 .card.featured-row .card-button--site {
+    background: #e6dbc7 !important;
+    color: #4B2E2A !important;
+}
+
