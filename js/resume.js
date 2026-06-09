@@ -28,10 +28,10 @@ if (dots.length > 0) dots[0].classList.add('active');
 
 // Rotating title animation
 const titles = [
+    "Full Stack Engineer",
+    "React Developer",
     "Blockchain Developer",
-    "Smart Contract Engineer",
-    "Token Launch Specialist",
-    "Web3 Consultant"
+    "Solidity Engineer"
 ];
 
 let currentIndex = 0;
